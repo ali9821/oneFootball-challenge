@@ -2,7 +2,6 @@ package service
 
 import (
 	"context"
-	"fmt"
 	cfg "project/config"
 	"project/pkg/model"
 	"sync"
@@ -12,14 +11,14 @@ type renderer struct {
 	config        *cfg.Config
 	playerChannel chan model.Player
 	players       sync.Map
-	done          chan bool
+	response      chan model.PlayerData
 }
 
-func NewRendererService(playerChannel chan model.Player, done chan bool, config *cfg.Config) (model.Runner, error) {
+func NewRendererService(playerChannel chan model.Player, response chan model.PlayerData, config *cfg.Config) (model.Runner, error) {
 
 	return &renderer{
 		config:        config,
-		done:          done,
+		response:      response,
 		playerChannel: playerChannel,
 		players:       sync.Map{},
 	}, nil
@@ -28,6 +27,7 @@ func NewRendererService(playerChannel chan model.Player, done chan bool, config 
 
 func (r *renderer) Run(ctx context.Context) error {
 	var wg sync.WaitGroup
+
 	for i := 0; i < r.config.MaxRenderWorkers; i++ {
 		wg.Add(1)
 		go r.worker(&wg)
@@ -35,12 +35,11 @@ func (r *renderer) Run(ctx context.Context) error {
 	wg.Wait()
 	r.players.Range(func(key, value interface{}) bool {
 		player := value.(model.PlayerData)
-		fmt.Printf("%v \n", player)
+		r.response <- player
 		return true
 	})
-	r.done <- true
+	close(r.response)
 	return nil
-
 }
 
 func (r *renderer) worker(wg *sync.WaitGroup) {

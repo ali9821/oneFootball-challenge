@@ -29,7 +29,6 @@ func NewDataGetterService(idChannel chan int, playerChannel chan model.Player, c
 
 func (d *dataGetter) Run(ctx context.Context) error {
 	ctx, done := context.WithCancel(ctx)
-	defer close(d.playerChannel)
 	var wg sync.WaitGroup
 	go func() {
 		for i := 0; i < d.config.MaxWorkers; i++ {
@@ -38,6 +37,7 @@ func (d *dataGetter) Run(ctx context.Context) error {
 
 		}
 		wg.Wait()
+		close(d.playerChannel)
 	}()
 	for {
 		select {
@@ -49,7 +49,6 @@ func (d *dataGetter) Run(ctx context.Context) error {
 		}
 
 	}
-
 }
 
 func (d *dataGetter) fetchData(wg *sync.WaitGroup, done context.CancelFunc) {
