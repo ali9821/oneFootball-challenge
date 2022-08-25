@@ -6,6 +6,9 @@ import (
 )
 
 type Config struct {
+	OutputFormat     string
+	OutputFile       string
+	OutputPath       string
 	MaxWorkers       int
 	MaxRenderWorkers int
 	MaxFetch         int
@@ -24,6 +27,9 @@ func NewConfig() *Config {
 	setInitialConfig(v)
 
 	return &Config{
+		OutputFormat:     v.GetString("output_format"),
+		OutputFile:       v.GetString("output_file"),
+		OutputPath:       v.GetString("output_path"),
 		MaxWorkers:       v.GetInt("max_getter_worker_size"),
 		MaxRenderWorkers: v.GetInt("max_renderer_worker_size"),
 		MaxFetch:         v.GetInt("max_fetch_size"),
@@ -34,6 +40,9 @@ func NewConfig() *Config {
 }
 
 func setInitialConfig(v *viper.Viper) {
+	v.SetDefault("output_format", "stdout")
+	v.SetDefault("output_file", "result.txt")
+	v.SetDefault("output_path", ".")
 	v.SetDefault("max_getter_worker_size", 100)
 	v.SetDefault("max_renderer_worker_size", 100)
 	v.SetDefault("max_fetch_size", math.MaxInt)

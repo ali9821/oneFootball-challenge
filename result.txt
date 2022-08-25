@@ -1,0 +1,234 @@
+{ 172081 Raphinha 25 Barcelona  } 
+{ 4928 Pierre-Emerick Aubameyang 33 Barcelona  } 
+{ 81892 Jesus Vallejo 25 Real Madrid  } 
+{ 201900 Vinicius Junior 22 Real Madrid  } 
+{ 27733 Leon Goretzka 27 Bayern Munich Germany } 
+{ 250203 Ronald Araújo 23 Barcelona  } 
+{ 312998 Ansu Fati 19 Barcelona Spain } 
+{ 368024 Shola Shoretire 18 Manchester United  } 
+{ 39728 Anthony Martial 26 Manchester United  } 
+{ 102072 Thilo Kehrer 25  Germany } 
+{ 388562 Cesare Casadei 19 Chelsea  } 
+{ 189526 Alphonso Davies 21 Bayern Munich  } 
+{ 194121 David Raum 24  Germany } 
+{ 29594 Lucas Vazquez 31 Real Madrid  } 
+{ 199615 Declan Rice 23  England } 
+{ 42161 Elneny Mohamed 30 Arsenal  } 
+{ 63319 Lukas Klostermann 26  Germany } 
+{ 178914 Carlos Soler 25  Spain } 
+{ 173728 Jonathan Clauss 29  France } 
+{ 260384 Ryan Gravenberch 20 Bayern Munich  } 
+{ 35354 Jordan Pickford 28  England } 
+{ 178378 Matt Turner 28 Arsenal  } 
+{ 257474 James Garner 21 Manchester United  } 
+{ 50348 Jonathan Tah 26  Germany } 
+{ 824 Karim Benzema 34 Real Madrid France } 
+{ 102098 Ainsley Maitland-Niles 24 Arsenal  } 
+{ 4859 Eden Hazard 31 Real Madrid  } 
+{ 199280 Pau Torres 25  Spain } 
+{ 12896 Kalidou Koulibaly 31 Chelsea  } 
+{ 2046 Cesar Azpilicueta 32 Chelsea Spain } 
+{ 587 Miralem Pjanic 32 Barcelona  } 
+{ 31232 James Ward-Prowse 27  England } 
+{ 111111 Donny van de Beek 25 Manchester United  } 
+{ 39625 Bruno Fernandes 27 Manchester United  } 
+{ 48080 Niklas Süle 26  Germany } 
+{ 60453 David Raya Martin 26  Spain } 
+{ 172496 Kylian Mbappe 23  France } 
+{ 122800 Rob Holding 26 Arsenal  } 
+{ 18433 Mateo Kovacic 28 Chelsea  } 
+{ 238648 Ferran Torres 22 Barcelona Spain } 
+{ 29274 Nick Pope 30  England } 
+{ 9719 Thibaut Courtois 30 Real Madrid  } 
+{ 244490 Rodrygo 21 Real Madrid  } 
+{ 31118 N'Golo Kante 31 Chelsea  } 
+{ 24411 Kepa Arrizabalaga 27 Chelsea  } 
+{ 258501 William Saliba 21 Arsenal France } 
+{ 181420 Tammy Abraham 24  England } 
+{ 373381 Alejandro Garnacho 18 Manchester United  } 
+{ 179564 Mason Mount 23 Chelsea England } 
+{ 187964 Aaron Ramsdale 24 Arsenal England } 
+{ 184775 Ben White 24 Arsenal  } 
+{ 823 Cristiano Ronaldo 37 Manchester United  } 
+{ 68400 Marcos Llorente 27  Spain } 
+{ 44582 Emerson 28 Chelsea  } 
+{ 173 Thomas Müller 32 Bayern Munich Germany } 
+{ 62172 Mariano Diaz 29 Real Madrid  } 
+{ 28990 Raheem Sterling 27 Chelsea England } 
+{ 107254 Kieran Tierney 25 Arsenal  } 
+{ 215904 Reiss Nelson 22 Arsenal  } 
+{ 63998 Victor Lindelof 28 Manchester United  } 
+{ 23772 Raphael Varane 29 Manchester United  } 
+{ 370762 Hannibal Mejbri 19 Manchester United  } 
+{ 3893 Antoine Griezmann 31  France } 
+{ 1992 Robert Lewandowski 34 Barcelona  } 
+{ 354521 Luis López 21 Real Madrid  } 
+{ 165454 Christian Pulisic 23 Chelsea  } 
+{ 24048 Memphis 28 Barcelona  } 
+{ 33789 Martin Braithwaite 31 Barcelona  } 
+{ 3347 Ilkay Gündogan 31  Germany } 
+{ 144 Gerard Pique 35 Barcelona  } 
+{ 107504 Kalvin Phillips 26  England } 
+{ 199076 Aaron Wan-Bissaka 24 Manchester United  } 
+{ 370085 Amad Diallo 20 Manchester United  } 
+{ 271651 Eduardo Camavinga 19 Real Madrid  } 
+{ 832 Marcos Alonso 31 Chelsea Spain } 
+{ 35994 Serge Gnabry 27 Bayern Munich Germany } 
+{ 63818 Martin Ødegaard 23 Arsenal  } 
+{ 215864 Tyrell Malacia 23 Manchester United  } 
+{ 176214 Theo Hernandez 24  France } 
+{ 31130 Bouna Sarr 30 Bayern Munich  } 
+{ 3148 Harry Kane 29  England } 
+{ 120471 Gabriel Jesus 25 Arsenal  } 
+{ 6897 Granit Xhaka 29 Arsenal  } 
+{ 308885 Fábio Vieira 22 Arsenal  } 
+{ 259559 Robert Sanchez 24  Spain } 
+{ 227454 Conor Gallagher 22 Chelsea England } 
+{ 29600 Raúl de Tomás 27  Spain } 
+{ 131863 Unai Simon 25  Spain } 
+{ 32049 Harry Maguire 29 Manchester United England } 
+{ 20775 Marcel Sabitzer 28 Bayern Munich  } 
+{ 177001 Takehiro Tomiyasu 23 Arsenal  } 
+{ 31227 Luke Shaw 27 Manchester United  } 
+{ 181 David Alaba 30 Real Madrid  } 
+{ 18468 Pablo Sarabia 30  Spain } 
+{ 170135 Axel Tuanzebe 24 Manchester United  } 
+{ 313236 Teden Mengi 20 Manchester United  } 
+{ 1266 Toni Kroos 32 Real Madrid  } 
+{ 136193 Dayot Upamecano 23 Bayern Munich  } 
+{ 3652 Marc-André ter Stegen 30 Barcelona  } 
+{ 82919 Nicolas Pepe 27 Arsenal  } 
+{ 114584 Dani Olmo 24  Spain } 
+{ 49610 Ruben Loftus-Cheek 26 Chelsea  } 
+{ 184048 Édouard Mendy 30 Chelsea  } 
+{ 1264 Manuel Neuer 36 Bayern Munich Germany } 
+{ 444840 Paul Wanner 16 Bayern Munich  } 
+{ 172006 Marcus Rashford 24 Manchester United  } 
+{ 275839 Iñaki Peña 23 Barcelona  } 
+{ 2908 Phil Jones 30 Manchester United  } 
+{ 44451 Fred 29 Manchester United  } 
+{ 176421 Lisandro Martínez 24 Manchester United  } 
+{ 260959 Karim Adeyemi 20  Germany } 
+{ 109266 Benjamin Pavard 26 Bayern Munich France } 
+{ 263348 Eric 21 Barcelona Spain } 
+{ 48225 Andreas Christensen 26 Barcelona  } 
+{ 120851 Olexandr Zinchenko 25 Arsenal  } 
+{ 430943 Marquinhos 19 Arsenal  } 
+{ 271195 Billy Gilmour 21 Chelsea  } 
+{ 192324 Kai Havertz 23 Chelsea Germany } 
+{ 200933 Callum Hudson-Odoi 21 Chelsea  } 
+{ 230488 Moussa Diaby 23  France } 
+{ 63521 Leroy Sane 26 Bayern Munich Germany } 
+{ 187991 Trent Alexander-Arnold 23  England } 
+{ 262551 Emile Smith-Rowe 22 Arsenal  } 
+{ 33051 Hakim Ziyech 29 Chelsea  } 
+{ 133558 Benjamin Henrichs 25  Germany } 
+{ 58940 Marco Asensio 26 Real Madrid Spain } 
+{ 263539 Joshua Zirkzee 21 Bayern Munich  } 
+{ 376844 Jamal Musiala 19 Bayern Munich Germany } 
+{ 24218 Dani Carvajal 30 Real Madrid Spain } 
+{ 1187 Eric Choupo-Moting 33 Bayern Munich  } 
+{ 227453 Marc Guéhi 22  England } 
+{ 18860 Conor Coady 29  England } 
+{ 726 Thiago Silva 37 Chelsea  } 
+{ 23845 Lucas Digne 29  France } 
+{ 90001 Eric Bailly 28 Manchester United  } 
+{ 215905 Edward Nketiah 23 Arsenal  } 
+{ 27491 Rahman Baba 28 Chelsea  } 
+{ 31192 Ross Barkley 28 Chelsea  } 
+{ 346656 Armando Broja 20 Chelsea  } 
+{ 43151 Kingsley Coman 26 Bayern Munich France } 
+{ 348883 Pedri 19 Barcelona  } 
+{ 198803 Philip Foden 22  England } 
+{ 173172 James Justin 24  England } 
+{ 201935 Lukas Nmecha 23  Germany } 
+{ 176958 Federico Valverde 24 Real Madrid  } 
+{ 29186 John Stones 28  England } 
+{ 10723 Cedric Soares 30 Arsenal  } 
+{ 1814 Luka Modric 36 Real Madrid  } 
+{ 29996 Jorginho 30 Chelsea  } 
+{ 60479 Lucas Hernandez 26 Bayern Munich  } 
+{ 200932 Jadon Sancho 22 Manchester United  } 
+{ 27535 Jonas Hofmann 30  Germany } 
+{ 94 Koke 30  Spain } 
+{ 188965 Marc Cucurella 24 Chelsea  } 
+{ 31186 Jack Grealish 26  England } 
+{ 202228 Gabriel 24 Arsenal  } 
+{ 367653 Alejandro Baldé 18 Barcelona  } 
+{ 148 Sergio Busquets 34 Barcelona Spain } 
+{ 343087 Jude Bellingham 19  England } 
+{ 246261 Gabriel Martinelli 21 Arsenal  } 
+{ 3975 Oliver Baumann 32  Germany } 
+{ 193820 Matteo Guendouzi 23  France } 
+{ 263533 Josip Stanišić 22 Bayern Munich  } 
+{ 225822 Arnau Tenas 21 Barcelona  } 
+{ 38662 Marcus Bettinelli 30 Chelsea  } 
+{ 394416 Pablo Torre 19 Barcelona  } 
+{ 50458 Timo Werner 26  Germany } 
+{ 200826 Ibrahima Konaté 23  France } 
+{ 185873 Matthijs de Ligt 23 Bayern Munich  } 
+{ 360365 Anthony Elanga 20 Manchester United  } 
+{ 181340 Alvaro Odriozola 26 Real Madrid  } 
+{ 18467 Alvaro Morata 29  Spain } 
+{ 52330 Robert Kenedy 26 Chelsea  } 
+{ 977 Sven Ulreich 34 Bayern Munich  } 
+{ 125537 Franck Kessié 25 Barcelona  } 
+{ 11648 Tom Heaton 36 Manchester United  } 
+{ 218631 Reece James 22 Chelsea England } 
+{ 51794 Mike Maignan 27  France } 
+{ 195848 Aurélien Tchouaméni 22 Real Madrid France } 
+{ 219626 Diogo Dalot 23 Manchester United  } 
+{ 346479 Brandon Williams 21 Manchester United  } 
+{ 19604 Nacho 32 Real Madrid  } 
+{ 3147 Kyle Walker 32  England } 
+{ 181421 Fikayo Tomori 24  England } 
+{ 217891 Anton Stach 23  Germany } 
+{ 185217 Noussair Mazraoui 24 Bayern Munich  } 
+{ 297852 Facundo Pellistri 20 Manchester United  } 
+{ 63567 Dani Ceballos 26 Real Madrid  } 
+{ 168738 Eder Militão 24 Real Madrid  } 
+{ 185328 Ethan Ampadu 21 Chelsea  } 
+{ 31040 Adrien Rabiot 27  France } 
+{ 172882 Jules Koundé 23 Barcelona France } 
+{ 63044 Jarrod Bowen 25  England } 
+{ 13193 Kieran Trippier 31  England } 
+{ 52424 Thomas 29 Arsenal  } 
+{ 35993 Hector Bellerin 27 Arsenal  } 
+{ 70746 Presnel Kimpembe 27  France } 
+{ 398386 Mathys Tel 17 Bayern Munich  } 
+{ 40247 Diego Llorente 29  Spain } 
+{ 387991 Gavi 18 Barcelona Spain } 
+{ 207746 Scott McTominay 25 Manchester United  } 
+{ 194662 Tahith Chong 22 Manchester United  } 
+{ 173112 Rodri 26  Spain } 
+{ 5039 Alphonse Areola 29  France } 
+{ 1231 Christian Eriksen 30 Manchester United  } 
+{ 93 David De Gea 31 Manchester United  } 
+{ 5151 Wissam Ben Yedder 32  France } 
+{ 50793 Joshua Kimmich 27 Bayern Munich Germany } 
+{ 28571 Sadio Mane 30 Bayern Munich  } 
+{ 28588 Inigo Martinez 31  Spain } 
+{ 127795 Frenkie de Jong 25 Barcelona  } 
+{ 4049 Jordi Alba 33 Barcelona Spain } 
+{ 237526 Albert Lokonga 22 Arsenal  } 
+{ 61853 Julian Brandt 26  Germany } 
+{ 120836 Ferland Mendy 27 Real Madrid  } 
+{ 167741 Ousmane Dembélé 25 Barcelona  } 
+{ 250700 Sergiño Dest 21 Barcelona  } 
+{ 17093 Samuel Umtiti 28 Barcelona  } 
+{ 3256 Kevin Trapp 32  Germany } 
+{ 285577 Nico Schlotterbeck 22  Germany } 
+{ 172675 Trevoh Chalobah 23 Chelsea  } 
+{ 405287 Gabriel Vidović 18 Bayern Munich  } 
+{ 20953 Antonio Rüdiger 29 Real Madrid Germany } 
+{ 145534 Benjamin Chilwell 25 Chelsea  } 
+{ 12630 Sergi Roberto 30 Barcelona  } 
+{ 26157 Casemiro 30 Manchester United  } 
+{ 48058 Andriy Lunin 23 Real Madrid  } 
+{ 354885 Carney Chukwuemeka 18 Chelsea  } 
+{ 136182 Christopher Nkunku 24  France } 
+{ 199018 Boubacar Kamara 22  France } 
+{ 257485 Bukayo Saka 20 Arsenal England } 
+{ 3643 Marco Reus 33  Germany } 
+{ 22851 Michy Batshuayi 28 Chelsea  } 
+{ 585 Hugo Lloris 35  France } 

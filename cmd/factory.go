@@ -15,7 +15,6 @@ type factory struct {
 
 func NewFactory() (*factory, error) {
 	var idChannel = make(chan int, 1000)
-	var teamChannel = make(chan model.Team, 1000)
 	var playerChannel = make(chan model.Player, 1000)
 	var doneChannel = make(chan bool)
 	config := cfg.NewConfig()
@@ -25,12 +24,12 @@ func NewFactory() (*factory, error) {
 		log.Fatal(fmt.Sprintf("establish generate service : %d", err1))
 	}
 
-	dataGetterService, err2 := service.NewDataGetterService(idChannel, teamChannel, config)
+	dataGetterService, err2 := service.NewDataGetterService(idChannel, playerChannel, config)
 	if err2 != nil {
 		log.Fatal(fmt.Sprintf("establish getter service : %d", err2))
 	}
 
-	rendererService, err3 := service.NewRendererService(teamChannel, playerChannel, doneChannel, config)
+	rendererService, err3 := service.NewRendererService(playerChannel, doneChannel, config)
 	if err3 != nil {
 		log.Fatal(fmt.Sprintf("establish render service : %d", err3))
 	}

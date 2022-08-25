@@ -11,25 +11,25 @@ import (
 )
 
 type dataGetter struct {
-	idChannel   chan int
-	teamChannel chan model.Team
-	wantedTeams int
-	config      *cfg.Config
-	mu          sync.Mutex
+	idChannel     chan int
+	playerChannel chan model.Player
+	wantedTeams   int
+	config        *cfg.Config
+	mu            sync.Mutex
 }
 
-func NewDataGetterService(idChannel chan int, teamChannel chan model.Team, config *cfg.Config) (model.Runner, error) {
+func NewDataGetterService(idChannel chan int, playerChannel chan model.Player, config *cfg.Config) (model.Runner, error) {
 	return &dataGetter{
-		idChannel:   idChannel,
-		config:      config,
-		teamChannel: teamChannel,
-		wantedTeams: len(config.WantedTeams),
+		idChannel:     idChannel,
+		config:        config,
+		playerChannel: playerChannel,
+		wantedTeams:   len(config.WantedTeams),
 	}, nil
 }
 
 func (d *dataGetter) Run(ctx context.Context) error {
 	ctx, done := context.WithCancel(ctx)
-	defer close(d.teamChannel)
+	defer close(d.playerChannel)
 	var wg sync.WaitGroup
 	go func() {
 		for i := 0; i < d.config.MaxWorkers; i++ {
@@ -67,7 +67,10 @@ func (d *dataGetter) fetchData(wg *sync.WaitGroup, done context.CancelFunc) {
 			d.mu.Lock()
 			d.wantedTeams--
 			d.mu.Unlock()
-			d.teamChannel <- team
+			for _, player := range team.Data.Team.Players {
+				player.Team = team.Data.Team.Name
+				d.playerChannel <- player
+			}
 		}
 
 	}

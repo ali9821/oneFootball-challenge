@@ -1,9 +1,8 @@
 package model
 
 type Player struct {
-	Id      string
-	Name    string
-	Age     string
-	Country string
-	Team    string
+	Id   string `json:"id"`
+	Name string `json:"name"`
+	Age  string `json:"age"`
+	Team string `json:"team"`
 }
